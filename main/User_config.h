@@ -107,10 +107,10 @@ const byte mac[] = {0xDE, 0xED, 0xBA, 0xFE, 0x54, 0x95}; //W5100 ethernet shield
 
 #if defined(ESPWifiManualSetup) // for nodemcu, weemos and esp8266
 #  ifndef wifi_ssid
-#    define wifi_ssid "wifi ssid"
+#    define wifi_ssid "kkdd-wrt"
 #  endif
 #  ifndef wifi_password
-#    define wifi_password "wifi password"
+#    define wifi_password "aquatic-carrot_926?^"
 #  endif
 #endif
 
@@ -159,13 +159,13 @@ const byte mac[] = {0xDE, 0xED, 0xBA, 0xFE, 0x54, 0x95}; //W5100 ethernet shield
 #endif
 
 #ifndef MQTT_USER
-#  define MQTT_USER "your_username"
+#  define MQTT_USER "ppp"
 #endif
 #ifndef MQTT_PASS
-#  define MQTT_PASS "your_password"
+#  define MQTT_PASS "ppp"
 #endif
 #ifndef MQTT_SERVER
-#  define MQTT_SERVER "192.168.1.17"
+#  define MQTT_SERVER "192.168.1.5"
 #endif
 #ifndef MQTT_PORT
 #  define MQTT_PORT "1883"
